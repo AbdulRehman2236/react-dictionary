@@ -16,7 +16,6 @@ function App() {
         `https://api.dictionaryapi.dev/api/v2/entries/${category}/${word}`
       );
       setMeaning(data.data);
-      console.log(meaning);
     } catch (error) {}
   };
 
