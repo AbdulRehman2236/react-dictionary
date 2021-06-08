@@ -6,7 +6,6 @@ import {
   ThemeProvider,
 } from "@material-ui/core";
 import React from "react";
-import { debounce } from "lodash";
 import categories from "../data/Data";
 import Explanation from "./Explanation";
 import useStyles from "./Style";

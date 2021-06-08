@@ -44,6 +44,14 @@ const useStyles = makeStyles((theme) => ({
     marginBottom: "20px",
     backgroundColor: "#3c4047",
   },
+  footer: {
+    backgroundColor: "#3c4047",
+    borderColor: "#3c4047",
+    //borderRadius: "10px",
+    padding: "10px",
+    color: "#61dafb",
+    marginTop: theme.spacing(8),
+  },
 }));
 
 export default useStyles;
